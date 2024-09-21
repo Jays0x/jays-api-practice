@@ -49,7 +49,7 @@ const [loading, setLoading] = useState(true);
      <h1>Fetching JSON PLACEHOLDER</h1>
 
      {posts.map(posts => (
-        <div className="text-center w-[50%]" key={posts.id}>
+        <div className="text-center w-[50%]" key={posts.userid}>
         <p className="text-[20px] font-semibold ">{posts.title}</p>
         <p className="text-[14px] opacity-70 font-light">{posts.body}</p>
       </div>
