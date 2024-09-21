@@ -32,7 +32,7 @@ function HomePage() {
       <Image src={Jays} alt='jays image' className='w-[50px] h-[50px] rounded-md mb-4'/>
       <div className='flex flex-col items-center justify-center text-center'>
         <h1 className='text-[30px] font-semibold tracking-tight'>Welcome to Jays Practice</h1>
-        <p className='opacity-70 text-[16px] font-light'>Here are the recent APIs I've called</p>
+        <p className='opacity-70 text-[16px] font-light'>Here are the recent APIs I&apos;ve called</p>
       </div>
 
       <div className='mt-[30px] flex flex-row gap-4 justify-center items-center'>
